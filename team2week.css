@@ -1,0 +1,50 @@
+body {
+    background: black;
+    color: #fff;
+}
+
+header {
+    padding: 15px;
+}
+
+
+main {
+    padding: 20px;
+}
+.all{
+    display:flex;
+    flex-direction: column;
+}
+.question {
+    max-width: 800px;
+}
+.question button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+
+}
+.question_3 {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+.q{
+    background: grey;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-top:3px;
+    padding-bottom: 3px;
+}
+.q h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.q p {
+    font-size: 15px;
+}
