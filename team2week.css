@@ -15,10 +15,11 @@ main {
     display:flex;
     flex-direction: column;
 }
-.question {
+.category {
     max-width: 800px;
+    margin-bottom: 10px;
 }
-.question button {
+.category button {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -26,10 +27,9 @@ main {
     border-radius: 20px;
 
 }
-.question_3 {
+.submit-three-question {
     justify-content: center;
     margin-bottom: 20px;
-    margin: 20px 0;
     text-align: left;
 }
 .q{
@@ -38,11 +38,12 @@ main {
     border-radius: 10px;
     padding-top:3px;
     padding-bottom: 3px;
+    width:1500px;
 }
 .q h2 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: green;
+    color: darkgreen;
 }
 
 .q p {
